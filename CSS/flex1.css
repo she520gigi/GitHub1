@@ -1,0 +1,8 @@
+.desc {
+    font-size: 48px;
+    position: absolute;
+    bottom: 50px;
+    background-color: rgba(23, 25, 5, 0.3);
+    width: 500px;
+    visibility: hidden;
+}

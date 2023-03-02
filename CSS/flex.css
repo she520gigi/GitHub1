@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item {
+    transform-origin: left bottom;
+    transform: rotate(0deg);
+    background: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item:hover {
+    background: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container1 {
+    display: block;
+    float: left;
+}
+
+.item1 {
+    padding: 10px;                                                                                                                                                                      
+    margin: 10px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.item2 {
+    padding: 230px;
+    margin: -130px;
+}
+
+.container3 {
+    display: block;
+    float: left;  
+    background-image: url(../img/message.png);
+}
